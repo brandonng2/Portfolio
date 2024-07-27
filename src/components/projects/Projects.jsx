@@ -12,7 +12,7 @@ import { Keyboard, Pagination } from 'swiper/modules';
 
 const Projects = () => {
     return (
-        <section className="project container section">
+        <section className="project container section" id="projects">
             <h2 className="section__title">Projects</h2>
             <span className="section__subtitle">My personal work</span>
 
