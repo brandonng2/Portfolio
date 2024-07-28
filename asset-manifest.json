@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/Brandon-Ng/static/css/main.fdaa9ced.css",
-    "main.js": "/Brandon-Ng/static/js/main.53220df2.js",
-    "static/js/453.f19e9853.chunk.js": "/Brandon-Ng/static/js/453.f19e9853.chunk.js",
-    "static/media/about.png": "/Brandon-Ng/static/media/about.0e882bfabb9dff7b8eac.png",
-    "static/media/profile.png": "/Brandon-Ng/static/media/profile.9f592eb688020f3d1470.png",
-    "static/media/Resume.pdf": "/Brandon-Ng/static/media/Resume.8b2d9cd6d0b8a80fa996.pdf",
-    "static/media/project7.jpg": "/Brandon-Ng/static/media/project7.a0505cd0d0f9f4e68774.jpg",
-    "static/media/project6.jpg": "/Brandon-Ng/static/media/project6.90a9283675a519d129a2.jpg",
-    "static/media/project2.jpg": "/Brandon-Ng/static/media/project2.e52a0c2981a6c11ba468.jpg",
-    "static/media/project4.jpg": "/Brandon-Ng/static/media/project4.aee985961b648f4df1f2.jpg",
-    "static/media/project5.jpg": "/Brandon-Ng/static/media/project5.094ec4a2224db8908873.jpg",
-    "static/media/project1.jpg": "/Brandon-Ng/static/media/project1.321b4ae3bf404acdfdc6.jpg",
-    "static/media/project3.jpg": "/Brandon-Ng/static/media/project3.135e9065694bc13dc31d.jpg",
-    "static/media/hand.svg": "/Brandon-Ng/static/media/hand.330b49cc7cd3bedaa20e738eb0d42fc1.svg",
-    "static/media/files.svg": "/Brandon-Ng/static/media/files.d6e358c5e2215011198994ebe1d60155.svg",
-    "static/media/send.svg": "/Brandon-Ng/static/media/send.3275c56a29a24fd53507d2cb755cd976.svg",
-    "static/media/scroll.svg": "/Brandon-Ng/static/media/scroll.083a8933455e8ad6b49dac04b76dcfae.svg",
-    "index.html": "/Brandon-Ng/index.html",
-    "main.fdaa9ced.css.map": "/Brandon-Ng/static/css/main.fdaa9ced.css.map",
-    "main.53220df2.js.map": "/Brandon-Ng/static/js/main.53220df2.js.map",
-    "453.f19e9853.chunk.js.map": "/Brandon-Ng/static/js/453.f19e9853.chunk.js.map"
+    "main.css": "/Brandon-Ng-Portfolio/static/css/main.4d6ea903.css",
+    "main.js": "/Brandon-Ng-Portfolio/static/js/main.3c9e3e9f.js",
+    "static/js/453.f19e9853.chunk.js": "/Brandon-Ng-Portfolio/static/js/453.f19e9853.chunk.js",
+    "static/media/about.png": "/Brandon-Ng-Portfolio/static/media/about.0e882bfabb9dff7b8eac.png",
+    "static/media/profile.png": "/Brandon-Ng-Portfolio/static/media/profile.9f592eb688020f3d1470.png",
+    "static/media/Resume.pdf": "/Brandon-Ng-Portfolio/static/media/Resume.8b2d9cd6d0b8a80fa996.pdf",
+    "static/media/project7.jpg": "/Brandon-Ng-Portfolio/static/media/project7.a0505cd0d0f9f4e68774.jpg",
+    "static/media/project6.jpg": "/Brandon-Ng-Portfolio/static/media/project6.90a9283675a519d129a2.jpg",
+    "static/media/project2.jpg": "/Brandon-Ng-Portfolio/static/media/project2.e52a0c2981a6c11ba468.jpg",
+    "static/media/project4.jpg": "/Brandon-Ng-Portfolio/static/media/project4.aee985961b648f4df1f2.jpg",
+    "static/media/project5.jpg": "/Brandon-Ng-Portfolio/static/media/project5.094ec4a2224db8908873.jpg",
+    "static/media/project1.jpg": "/Brandon-Ng-Portfolio/static/media/project1.321b4ae3bf404acdfdc6.jpg",
+    "static/media/project3.jpg": "/Brandon-Ng-Portfolio/static/media/project3.135e9065694bc13dc31d.jpg",
+    "static/media/hand.svg": "/Brandon-Ng-Portfolio/static/media/hand.330b49cc7cd3bedaa20e738eb0d42fc1.svg",
+    "static/media/files.svg": "/Brandon-Ng-Portfolio/static/media/files.d6e358c5e2215011198994ebe1d60155.svg",
+    "static/media/send.svg": "/Brandon-Ng-Portfolio/static/media/send.3275c56a29a24fd53507d2cb755cd976.svg",
+    "static/media/scroll.svg": "/Brandon-Ng-Portfolio/static/media/scroll.083a8933455e8ad6b49dac04b76dcfae.svg",
+    "index.html": "/Brandon-Ng-Portfolio/index.html",
+    "main.4d6ea903.css.map": "/Brandon-Ng-Portfolio/static/css/main.4d6ea903.css.map",
+    "main.3c9e3e9f.js.map": "/Brandon-Ng-Portfolio/static/js/main.3c9e3e9f.js.map",
+    "453.f19e9853.chunk.js.map": "/Brandon-Ng-Portfolio/static/js/453.f19e9853.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fdaa9ced.css",
-    "static/js/main.53220df2.js"
+    "static/css/main.4d6ea903.css",
+    "static/js/main.3c9e3e9f.js"
   ]
 }
