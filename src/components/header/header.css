@@ -13,7 +13,7 @@
     justify-content: space-between;
     align-items: center;
     column-gap: 1rem;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.1); */
 }
 
 .nav__logo, .nav__toggle {
@@ -43,7 +43,12 @@
 /* Active Link */
 .active-link,
 .nav__link:hover {
-    color: var(--title-color-dark);
+    color: black;
+}
+
+/* Change background header */
+.scroll-header {
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
 }
 
 /*=============== BREAKPOINTS ===============*/
