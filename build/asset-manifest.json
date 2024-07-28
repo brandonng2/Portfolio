@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Brandon-Ng-Portfolio/static/css/main.4d6ea903.css",
-    "main.js": "/Brandon-Ng-Portfolio/static/js/main.3c9e3e9f.js",
+    "main.css": "/Brandon-Ng-Portfolio/static/css/main.302f713c.css",
+    "main.js": "/Brandon-Ng-Portfolio/static/js/main.c87a7fa9.js",
     "static/js/453.f19e9853.chunk.js": "/Brandon-Ng-Portfolio/static/js/453.f19e9853.chunk.js",
     "static/media/about.png": "/Brandon-Ng-Portfolio/static/media/about.0e882bfabb9dff7b8eac.png",
     "static/media/profile.png": "/Brandon-Ng-Portfolio/static/media/profile.9f592eb688020f3d1470.png",
@@ -18,12 +18,12 @@
     "static/media/send.svg": "/Brandon-Ng-Portfolio/static/media/send.3275c56a29a24fd53507d2cb755cd976.svg",
     "static/media/scroll.svg": "/Brandon-Ng-Portfolio/static/media/scroll.083a8933455e8ad6b49dac04b76dcfae.svg",
     "index.html": "/Brandon-Ng-Portfolio/index.html",
-    "main.4d6ea903.css.map": "/Brandon-Ng-Portfolio/static/css/main.4d6ea903.css.map",
-    "main.3c9e3e9f.js.map": "/Brandon-Ng-Portfolio/static/js/main.3c9e3e9f.js.map",
+    "main.302f713c.css.map": "/Brandon-Ng-Portfolio/static/css/main.302f713c.css.map",
+    "main.c87a7fa9.js.map": "/Brandon-Ng-Portfolio/static/js/main.c87a7fa9.js.map",
     "453.f19e9853.chunk.js.map": "/Brandon-Ng-Portfolio/static/js/453.f19e9853.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d6ea903.css",
-    "static/js/main.3c9e3e9f.js"
+    "static/css/main.302f713c.css",
+    "static/js/main.c87a7fa9.js"
   ]
 }
