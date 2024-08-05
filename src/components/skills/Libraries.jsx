@@ -30,7 +30,7 @@ const Libraries = () => {
                     <div className="skills__data">
                         <i className="bx bx-badge-check"></i>
                         <div>
-                            <h3 className="skills__name">Seaborn</h3>
+                            <h3 className="skills__name">OpenAI Vision</h3>
                         </div>
                     </div> 
                     <div className="skills__data">
@@ -63,7 +63,7 @@ const Libraries = () => {
                     <div className="skills__data">
                         <i className="bx bx-badge-check"></i>
                         <div>
-                            <h3 className="skills__name">Firebase</h3>
+                            <h3 className="skills__name">Gemini API</h3>
                         </div>
                     </div> 
                 </div>

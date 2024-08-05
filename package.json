@@ -15,7 +15,7 @@
     "swiper": "^11.1.8",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://brandonng2.github.io/Brandon-Ng-Portfolio",
+  "homepage": "https://brandonng2.github.io/Portfolio",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

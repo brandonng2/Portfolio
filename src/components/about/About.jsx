@@ -27,7 +27,7 @@ const About = () => {
                     games. I'm always eager to learn new technologies and 
                     collaborate on projects that make a difference!
                 </p>
-                <a download= 'Resume_BrandonNg.pdf' href={CV} className="button button--flex">Download Resume
+                <a download='Resume_BrandonNg.pdf' href={CV} className="button button--flex">Download Resume
                     <img src={fileImg} alt="" className="button__icon"/>
                 </a>
             </div>
