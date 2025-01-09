@@ -45,6 +45,12 @@ const Tools = () => {
                             <h3 className="skills__name">Selenium</h3>
                         </div>
                     </div> 
+                    <div className="skills__data">
+                        <i className="bx bx-badge-check"></i>
+                        <div>
+                            <h3 className="skills__name">Post Man Agent</h3>
+                        </div>
+                    </div> 
                 </div>
             </div>
         </div>
