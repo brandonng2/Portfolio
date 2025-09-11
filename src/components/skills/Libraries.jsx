@@ -24,6 +24,12 @@ const Libraries = () => {
                             <h3 className="skills__name">Matplotlib</h3>
                         </div>
                     </div> 
+                    <div className="skills__data">
+                        <i className="bx bx-badge-check"></i>
+                        <div>
+                            <h3 className="skills__name">Seaborn</h3>
+                        </div>
+                    </div> 
                 </div>
 
                 <div className="skills__group">
@@ -57,13 +63,19 @@ const Libraries = () => {
                     <div className="skills__data">
                         <i className="bx bx-badge-check"></i>
                         <div>
-                            <h3 className="skills__name">BeautifulSoup</h3>
+                            <h3 className="skills__name">TorchDistributor</h3>
                         </div>
                     </div> 
                     <div className="skills__data">
                         <i className="bx bx-badge-check"></i>
                         <div>
-                            <h3 className="skills__name">Gemini API</h3>
+                            <h3 className="skills__name">HuggingFace</h3>
+                        </div>
+                    </div> 
+                    <div className="skills__data">
+                        <i className="bx bx-badge-check"></i>
+                        <div>
+                            <h3 className="skills__name">TorchDistributor</h3>
                         </div>
                     </div> 
                 </div>

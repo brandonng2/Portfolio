@@ -97,4 +97,13 @@ export const ProjectData = [
         year: "2025",
         url: "https://brandonng2.github.io/LaneLogic/"
     },
+    {
+        id: 11,
+        image: Project4,
+        title: "RER Dashboard",
+        description: "An interactive dashboard analyzing Respiratory Exchange Rate (RER) across multiple demographic variables, featuring interactive histograms and personalized RER predictions during exercise through linear regression analysis.",
+        language: "Python, Scikit-Learn, Pandas, HTML, CSS, Javascript, D3.js",
+        year: "2025",
+        url: "https://chanyoungpark07.github.io/treadmill_interactive_viz/"
+    },
 ];

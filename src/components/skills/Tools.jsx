@@ -45,10 +45,25 @@ const Tools = () => {
                             <h3 className="skills__name">Selenium</h3>
                         </div>
                     </div> 
+                </div>
+
+                <div className="skills__group">
                     <div className="skills__data">
                         <i className="bx bx-badge-check"></i>
                         <div>
-                            <h3 className="skills__name">Post Man Agent</h3>
+                            <h3 className="skills__name">Apache Spark</h3>
+                        </div>
+                    </div> 
+                    <div className="skills__data">
+                        <i className="bx bx-badge-check"></i>
+                        <div>
+                            <h3 className="skills__name">AWS S3</h3>
+                        </div>
+                    </div> 
+                    <div className="skills__data">
+                        <i className="bx bx-badge-check"></i>
+                        <div>
+                            <h3 className="skills__name">Databricks</h3>
                         </div>
                     </div> 
                 </div>

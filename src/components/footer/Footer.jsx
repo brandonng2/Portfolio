@@ -35,7 +35,7 @@ const Footer = () => {
                         <i className="bx bxl-github"></i>
                     </a>
                 </div>
-                <span className="footer__copy">&#169; Brandon Ng. All rights reserved</span>
+                <span className="footer__copy">&#169; 2025 - Made with ❤️ by Brandon Ng</span>
             </div>
         </footer>
     )
