@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { EducationData, ExperienceData } from "./QualificationData";
 import "./qualification.css"
 
 const Qualification = () => {
@@ -6,6 +7,46 @@ const Qualification = () => {
 
     const toggleTab = (index) => {
         setToggleState(index);
+    };
+
+    const renderQualificationItem = (item, index, isReversed = false) => {
+        const isEven = index % 2 === 0;
+        const showLeft = isReversed ? !isEven : isEven;
+
+        return (
+            <div key={item.id} className="qualification__data">
+                <div>
+                    {showLeft && (
+                        <>
+                            <h3 className="qualification__title">{item.title}</h3>
+                            <span className="qualification__subtitle">{item.subtitle}</span>
+                            <div className="qualification__calender">
+                                <i className="uil uil-calendar-alt"></i>{item.date}
+                            </div>
+                        </>
+                    )}
+                </div>
+
+                <div>
+                    <span className="qualification__rounder"></span>
+                    {index < (isReversed ? ExperienceData.length - 1 : EducationData.length - 1) && (
+                        <span className="qualification__line"></span>
+                    )}
+                </div>
+
+                <div>
+                    {!showLeft && (
+                        <>
+                            <h3 className="qualification__title">{item.title}</h3>
+                            <span className="qualification__subtitle">{item.subtitle}</span>
+                            <div className="qualification__calender">
+                                <i className="uil uil-calendar-alt"></i>{item.date}
+                            </div>
+                        </>
+                    )}
+                </div>
+            </div>
+        );
     };
 
     return (
@@ -29,132 +70,12 @@ const Qualification = () => {
                 <div className="qualification__sections">
                     {/* EDUCATION */}
                     <div className={toggleState === 1 ? "qualification__content qualification__content-active" : "qualification__content"}>
-                        <div className="qualification__data">
-                            <div>
-                                <h3 className="qualification__title">B.S. Data Science</h3>
-                                <span className="qualification__subtitle">UC San Diego</span>
-                                <div className="qualification__calender">
-                                    <i className="uil uil-calendar-alt"></i>2023 - Present
-                                </div>
-                            </div>
-
-                            <div>
-                                <span className="qualification__rounder"></span>
-                                <span className="qualification__line"></span>
-                            </div>
-                        </div>
-
-                        <div className="qualification__data">
-                            <div></div>
-
-                            <div>
-                                <span className="qualification__rounder"></span>
-                                <span className="qualification__line"></span>
-                            </div>
-
-                            <div>
-                                <h3 className="qualification__title">B.S. Computer Science</h3>
-                                <span className="qualification__subtitle">UC Santa Cruz</span>
-                                <div className="qualification__calender">
-                                    <i className="uil uil-calendar-alt"></i>2021 - 2023
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="qualification__data">
-                            <div>
-                                <h3 className="qualification__title">High School Diploma</h3>
-                                <span className="qualification__subtitle">CVHS</span>
-                                <div className="qualification__calender">
-                                    <i className="uil uil-calendar-alt"></i>2017 - 2021
-                                </div>
-                            </div>
-
-                            <div>
-                                <span className="qualification__rounder"></span>
-                            </div>
-                        </div>
+                        {EducationData.slice().reverse().map((item, index) => renderQualificationItem(item, index, false))}
                     </div>
 
                     {/* EXPERIENCE */}
                     <div className={toggleState === 2 ? "qualification__content qualification__content-active" : "qualification__content"}>
-                    <div className="qualification__data">
-                            <div></div>
-                            <div>
-                                <span className="qualification__rounder"></span>
-                                <span className="qualification__line"></span>
-                            </div>
-
-                            <div>
-                                <h3 className="qualification__title">Software Engineer Intern</h3>
-                                <span className="qualification__subtitle">CDPH</span>
-                                <div className="qualification__calender">
-                                    <i className="uil uil-calendar-alt"></i>Incoming
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="qualification__data">
-                            <div>
-                                <h3 className="qualification__title">Software Engineer Fellow</h3>
-                                <span className="qualification__subtitle">Headstarter AI</span>
-                                <div className="qualification__calender">
-                                    <i className="uil uil-calendar-alt"></i>Jun 2024 - Sept 2024
-                                </div>
-                            </div>
-
-                            <div>
-                                <span className="qualification__rounder"></span>
-                                <span className="qualification__line"></span>
-                            </div>
-                        </div>
-
-                        <div className="qualification__data">
-                            <div></div>
-                            <div>
-                                <span className="qualification__rounder"></span>
-                                <span className="qualification__line"></span>
-                            </div>
-
-                            <div>
-                                <h3 className="qualification__title">Full Stack SWE Intern</h3>
-                                <span className="qualification__subtitle">CIP4Gov</span>
-                                <div className="qualification__calender">
-                                    <i className="uil uil-calendar-alt"></i>Jun 2024 - Sept 2024
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="qualification__data">
-                            <div>
-                                <h3 className="qualification__title">Backend Developer Team Lead</h3>
-                                <span className="qualification__subtitle">Tech4Good Lab</span>
-                                <div className="qualification__calender">
-                                    <i className="uil uil-calendar-alt"></i>Jun 2023 - Sept 2023
-                                </div>
-                            </div>
-
-                            <div>
-                                <span className="qualification__rounder"></span>
-                                <span className="qualification__line"></span>
-                            </div>
-                        </div>
-
-                        <div className="qualification__data">
-                            <div></div>
-                            <div>
-                                <span className="qualification__rounder"></span>
-                                <span className="qualification__line"></span>
-                            </div>
-
-                            <div>
-                                <h3 className="qualification__title">Backend Developer</h3>
-                                <span className="qualification__subtitle">Tech4Good Lab</span>
-                                <div className="qualification__calender">
-                                    <i className="uil uil-calendar-alt"></i>Jan 2023 - Jun 2023
-                                </div>
-                            </div>
-                        </div>
+                        {ExperienceData.slice().reverse().map((item, index) => renderQualificationItem(item, index, true))}
                     </div>
                 </div>
             </div>

@@ -1,17 +1,27 @@
-.project__container {
-    width: 950px;
+.project__container .swiper-wrapper {
+    align-items: stretch !important;
 }
-
 .project__card {
     background-color: var(--container-color);
-    border: 1px solid rgba(0, 0, 0 ,0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1.5rem 2rem;
     border-radius: 1.5rem;
     margin-bottom: var(--mb-3);
+    display: flex !important;
+    flex-direction: column !important;
+    height: auto !important;
+}
+
+
+.project__year {
+    margin-left: 90%;
 }
 
 .project__img {
-    border-radius: 3rem;
+    border-radius: 1rem;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: var(--mb-1);
 }
 
 .project__name {
@@ -22,13 +32,14 @@
 }
 
 .project__description {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.65rem;
+    flex-grow: 1;
 }
 
 .project__language {
     font-size: var(--small-font-size);
-    margin-left: 1rem;
     font-style: italic;
+    margin-top: auto;
 }
 
 /* Swiper Class */
@@ -45,8 +56,6 @@
 @media screen and (max-width: 992px) {
     .project__container {
         width: initial;
-    }
-    .project__container {
         padding: 1.25rem 1.5rem;
     }
   }

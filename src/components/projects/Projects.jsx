@@ -1,6 +1,6 @@
 import React from "react";
 import "./projects.css"
-import { Data } from "./Data"
+import { ProjectData } from "./ProjectData"
 
 // Import Swiper React components 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -28,20 +28,21 @@ const Projects = () => {
                 }}
                 breakpoints={{
                 576: {
-                    slidesPerView: 2,
+                    slidesPerView: 3,
                 },
                 768: {
-                    slidesPerView: 2,
+                    slidesPerView: 3,
                     spaceBetween: 24,
                 },
                 }}
                 modules={[Keyboard, Pagination]}
             >
-                {Data.map(({id, image, title, description, language}) => {
+                {ProjectData.slice().reverse().map(({id, image, title, description, language, year}) => {
                     return (
                         <SwiperSlide className="project__card" key={id}>
-                            <img src={image} alt="" className="project__img"/>
+                            <span className="project__year">{year}</span>
                             <h3 className="project__name">{title}</h3>
+                            <img src={image} alt="" className="project__img"/>
                             <p className="project__description">{description}</p>
                             <span className="project__language">{language}</span>
                         </SwiperSlide>
