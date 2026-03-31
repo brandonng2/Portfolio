@@ -50,7 +50,7 @@ export const ProjectData = [
         description: "A plant disease detector utilizing, a CNN model to classify leaf images and identify diseases across various plant species, achieving 77% accuracy across 38 disease categories.",
         language: "Python, Pandas, Pytorch, OpenCV",
         year: "2024",
-        url: ""
+        url: "https://github.com/brandonng2/Plant-Disease-Detector"
     },
     {
         id: 6,
@@ -105,5 +105,23 @@ export const ProjectData = [
         language: "Python, Scikit-Learn, Pandas, HTML, CSS, Javascript, D3.js",
         year: "2025",
         url: "https://chanyoungpark07.github.io/treadmill_interactive_viz/"
+    },
+    {
+        id: 12,
+        image: Project5,
+        title: "DermaVision-Analysis",
+        description: "Evaluated five deep learning architectures spanning CNNs, Vision Transformers, and zero-shot VLMs on HAM10000 for 7-class skin lesion classification and Grad-CAM lesion localization, revealing that classification accuracy and spatial grounding are dissociable.",
+        language: "Python, Pytorch, Pandas, Computer Vision, Deep Learning",
+        year: "2026",
+        url: "https://github.com/brandonng2/DermaVision-Analysis"
+    },
+    {
+        id: 13,
+        image: Project6,
+        title: "CardioTwin",
+        description: "A multimodal deep learning framework that fuses ECG foundation model embeddings, longitudinal vital signs, and structured EHR data to predict 17 cardiovascular diagnoses from emergency department encounters in MIMIC-IV.",
+        language: "Python, Pytorch, Pandas, Deep Learning, Digital Twin",
+        year: "2026",
+        url: "https://github.com/brandonng2/CardioTwin"
     },
 ];

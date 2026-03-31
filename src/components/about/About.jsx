@@ -16,13 +16,13 @@ const About = () => {
             </div>
             <div className="about__data">
                 <p className="about__description"> 
-                    Hi! I am a 4th year Data Science major at the UC, San Diego. 
+                    I am a 4th year Data Science major at the UC, San Diego. 
                     Inspired by Baymax from "Big Hero 6," 
                     I've been passionate about machine learning, artificial 
                     intelligence, and computer vision. The idea of using 
                     technology to make an impact on people's lives 
                     drew me to this field, and I've been passionate about 
-                    exploring the possibilities of computer science ever since.
+                    exploring the intersection between machine learning and healthcare ever since.
                     <br/><br/>
                     Beyond academics, I enjoy weight lifting, playing 
                     basketball and badminton, hanging out with friends and eating delicious food. I'm always eager to learn about new technologies and collaborate on projects that make a difference!

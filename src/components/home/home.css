@@ -166,7 +166,7 @@
 
 .home__scroll-arrow {
     font-size: 1.25rem;
-    color: var(--accent-color);
+    color: var(--title-color);
 }
 
 /*=============== BREAKPOINTS ===============*/
