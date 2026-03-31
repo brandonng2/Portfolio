@@ -12,7 +12,7 @@ const Data = () => {
             <p className="home__description">
                 Welcome! I'm Brandon Ng, a Data Science 
                 student at UC San Diego, with strong interets in 
-                machine learning and artifical intelligence.
+                machine learning, artifical intelligence, and health AI.
             </p>
             <a href="#contact" className="button button--flex" style={{ marginTop: 12 }}> Say Hello
                 <img src={sendImage} alt="" className="button__icon"/>

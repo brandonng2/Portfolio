@@ -15,7 +15,7 @@ export const EducationData = [
         id: 3,
         title: "B.S. Data Science",
         subtitle: "UC San Diego",
-        date: "2023 - Present"
+        date: "2023 - 2026"
     }
 ];
 
@@ -46,20 +46,20 @@ export const ExperienceData = [
     },
     {
         id: 5,
-        title: "Software Engineer Intern",
-        subtitle: "Comcast",
-        date: "Jun 2025 - Aug 2025"
+        title: "Machine Learning Apprenticeship",
+        subtitle: "UCSD - MOSAIC Lab",
+        date: "Sept 2025 - Mar 2026"
     },
     {
         id: 6,
+        title: "Undergraduate Teaching Assistant",
+        subtitle: "UCSD",
+        date: "Jan 2026 - Mar 2026"
+    },
+    {
+        id: 7,
         title: "Machine Learning Research Assistant",
         subtitle: "UCSD - XR Lab",
         date: "Sept 2025 - Current"
     },
-    {
-        id: 7,
-        title: "Machine Learning Apprenticeship",
-        subtitle: "UCSD - MOSAIC Lab",
-        date: "Sept 2025 - Current"
-    }
 ];

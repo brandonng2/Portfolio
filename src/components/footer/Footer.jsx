@@ -12,7 +12,7 @@ const Footer = () => {
                         <a href="#about" className="footer__link">About</a>
                     </li>
                     <li>
-                        <a href="#skill" className="footer__link">Skills</a>
+                        <a href="#skills" className="footer__link">Skills</a>
                     </li>
                     <li>
                         <a href="#projects" className="footer__link">Projects</a>
@@ -35,7 +35,7 @@ const Footer = () => {
                         <i className="bx bxl-github"></i>
                     </a>
                 </div>
-                <span className="footer__copy">&#169; 2025 - Made with ❤️ by Brandon Ng</span>
+                <span className="footer__copy">&#169; 2026 - Made with ❤️ by Brandon Ng</span>
             </div>
         </footer>
     )
