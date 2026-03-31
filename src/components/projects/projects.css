@@ -94,6 +94,11 @@
     padding-top: 0.6rem;
 }
 
+.project__card--link {
+    cursor: pointer;
+}
+
+
 /* Swiper Class */
 .swiper-pagination-bullet {
     background-color: var(--blue-200) !important;
